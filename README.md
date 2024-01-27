@@ -8,5 +8,5 @@ This project includes an algorithm that works on DNA sequences and combines thes
 * DNA subsequences are created from any number of random sections from the initial DNA sequence. Since the algorithm also requires complement sequences, the complement of each sequence created is also created.
 * The project creates an overlap matrix on given DNA sequences. This matrix shows overlapping regions. Match and mismatch scores are determined by the user to determine overlapping regions. Thus, how the algorithm works for different match scores can be tested.
 * You can examine the [Overlap Matrix](./overlapMatrisi.txt) .
-
-* 
+* Overlaps between sequences are reviewed and optimized. Regions exceeding a certain overlap level are merged. The overlap level is obtained from the user so that the algorithm can be tested with different threshold values.
+*The project produces a DNA assembly consisting of joined DNA sequences.
